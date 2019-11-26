@@ -7,7 +7,29 @@
   <groupId>cn.edu.ahut</groupId>
   <artifactId>upgrade-antlr</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-core</artifactId>
+      <version>1.19</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-generator-annprocess</artifactId>
+      <version>1.19</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 
-
-
+<!--  <version>3.1.0</version>-->
+<!--  <configuration>-->
+<!--    <archive>-->
+<!--      <manifest>-->
+<!--        <mainClass>org.apache.iotdb.db.service.QueryParseBenchmark</mainClass>-->
+<!--      </manifest>-->
+<!--    </archive>-->
+<!--    <descriptorRefs>-->
+<!--      <descriptorRef>jar-with-dependencies</descriptorRef>-->
+<!--    </descriptorRefs>-->
+<!--  </configuration>-->
 </project>
